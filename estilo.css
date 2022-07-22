@@ -1,0 +1,168 @@
+
+	*{
+
+		box-sizing: border-box;
+
+	}
+
+
+	body {
+
+		background-color: #005180;
+		font-family: 'Signika Negative', sans-serif;
+		font-size: 20px;
+
+		margin: 0px;
+		width: 100vw;
+		height: 100vh;
+		align-items: center;
+		justify-content: center;
+
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		
+	}
+
+
+	.textoPregunta {
+
+		text-align: left;
+
+		margin-left: 1px;
+		background-color: #d6f4ff;
+		padding: 30px 300px;
+		border-radius: 35px;
+
+		
+	}
+
+	
+
+	.opciones {
+
+		margin-top: 55px;
+		margin-bottom: 35px;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 50px 100px;
+
+	}
+
+	button { 
+
+		background-color: #a2dbfc ;
+		box-shadow: 6px 6px 5px #173d60 ;
+
+		border: none;
+		border-radius: 20px;
+		margin: 10px;
+
+		height: 90px;
+		width: 400px;
+		
+		
+	}
+
+	button:hover {
+
+		background-color: #46adf9;
+		transition: 0.3s;
+
+	}
+
+	button:active {
+
+		background-color: #077fd8;
+		
+
+	}
+
+	#puntaje {
+
+	
+	background-color: #00a8d6 ;
+	font-size: 26px;
+	border-radius: 20px;
+	width: 90px;
+	height: 70px;
+
+	line-height: 70px;
+	text-align: center;
+	align-self: flex-end ;
+
+	margin-right: 105px;
+	margin-bottom: 70px;
+	}
+
+	
+
+	#puntitos {
+
+		display: flex;
+		margin-top: 60px;
+
+		width: 130px;
+		justify-content: space-between;
+
+	}
+
+	#punt0s {
+
+		background-color: #a2dbfc;
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+
+
+	}
+
+	#punt0Correcto {
+
+		transition: 0.5s;
+		background-color: #aefca2;
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+
+
+	}
+
+	#punt0Incorrecto {
+
+		transition: 0.5s;
+		background-color: #f0aeaf;
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+
+
+	}
+
+
+	#bgTiempo {
+
+		position: relative;
+		left: 0;
+		bottom: 0;
+		background-color: #a2dbfc;
+		width: 820px;
+		height: 30px;
+
+		border-radius: 30px;
+	}
+
+	#barraTiempo {
+
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-color: #4680a7;
+		width: 820px;
+		height: 30px;
+		transition: 0.8s;
+		border-radius: 30px;
+
+	}
